@@ -26,19 +26,6 @@ def next(word):
         else:
             word = "!!"
         return word
-    
-
-def main():
-    word = '!'
-    while True:
-        word = next(word)
-        print (word)
-        
-def main(n):
-    word = "!"
-    for i in range(1,n):
-        word=next(word)
-        print (word)
 
 def main(n):
     words = []
@@ -47,7 +34,7 @@ def main(n):
         word=next(word)
         words.append(word)
         print (word)
-    print("end")
+    print ("end")
     print (len(list(words)) == len(words))
 import time
 start_time = time.time()        
